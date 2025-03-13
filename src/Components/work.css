@@ -1,0 +1,84 @@
+.experience-container {
+    background-color: #121212;
+    padding: 20px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  
+  .experience-item {
+    display: flex;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.9;
+  }
+  
+  .experience-item.hovered {
+    transform: translateX(5px);
+    opacity: 1;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .logo-wrapper {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .experience-item.hovered .vertical-line {
+    background-color: #555;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .company {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  
+  .role-period {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  
+  .description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ccc;
+    margin: 0;
+    max-width: 600px;
+  }
+  
+  /* Hover effects */
+  .experience-item:hover .company {
+    color: #ffffff;
+  }
+  
+  .experience-item:hover .description {
+    color: #e0e0e0;
+  }
+  
+  
